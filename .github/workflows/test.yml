@@ -10,6 +10,8 @@ jobs:
         uses: easimon/maximize-build-space@master
         with:
           remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
 
       - name: Build
         run: |
