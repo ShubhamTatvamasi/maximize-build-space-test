@@ -12,8 +12,3 @@ jobs:
           remove-dotnet: 'true'
           remove-android: 'true'
           remove-haskell: 'true'
-
-      - name: Build
-        run: |
-          echo "Free space:"
-          df -h
